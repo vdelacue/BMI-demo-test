@@ -10194,9 +10194,29 @@ html .landing-heading {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 150%;
   line-height: 1.4;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  padding: 1rem;
+  width: 100%;
+}
+
+.landing-sub-heading{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: stretch;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 150%;
+  line-height: 1.4;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
   width: 100%;
+}
+
+.sub-head{
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #A1A1A1;
 }
 
 body {
